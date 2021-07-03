@@ -1,0 +1,38 @@
+img{
+    width: 70%;
+    height: 300px;
+    margin: 0 auto;
+    display: block;
+}
+.blog1 img{
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+}
+.blog2 img{
+    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+}
+section{
+    width: 48%;
+    height: 530px;
+    margin: 20px auto;
+    border: 2px solid blue;
+    border-radius: 0 0 50px 50px;
+    padding: 10px;
+    text-align: justify;
+    color: #ffffff;
+}
+h2{
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+.blog1{
+    display: inline-block;
+    background-color: #15f36a;
+}
+.blog2{
+    display: inline-block;
+    background-color: cornflowerblue;
+}
+span{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
